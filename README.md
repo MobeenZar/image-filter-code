@@ -10,6 +10,7 @@ http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_
 http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/generateToke?password=hello
 
 # To test Authorization
+This bearer token can be used:  eyJhbGciOiJIUzI1NiJ9.aGVsbG8.Zbm0G9i_cBghcKnyCFMgqfrvhmYUk2j97sbTC5ktgmE
 http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/verification
 
 
