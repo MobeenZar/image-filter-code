@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "110208d1-a2ab-42ca-854d-7de4414734db",
+		"name": "udacity-c2-proj-restapi",
+		"description": "Collection of endpoint for Project2.\r\nAuthor : Mobeen Zar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "default",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filteredimage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/filteredimage?image_url=https://cdn.cnn.com/cnnnext/dam/assets/210108165723-23-us-capitol-riots-0106-medium-tease.jpg",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://cdn.cnn.com/cnnnext/dam/assets/210108165723-23-us-capitol-riots-0106-medium-tease.jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getToken",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/generateToke?password=hello",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"generateToke"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verifyAuthorization",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.aGVsbG8.Zbm0G9i_cBghcKnyCFMgqfrvhmYUk2j97sbTC5ktgmE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/verification",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"verification"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:8082"
+		}
+	]
+}
