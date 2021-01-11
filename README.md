@@ -1,6 +1,22 @@
 # image-filter-code
 Udacity Cloud Developer - Project 2
 
+# Follwing endpoint can be called.
+http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/
+
+http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://cdn.cnn.com/cnnnext/dam/assets/210108165723-23-us-capitol-riots-0106-medium-tease.jpg
+
+# To get a token for a given password
+http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/generateToke?password=hello
+
+# To test Authorization
+http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/verification
+
+
+
+# ------------------------------------------------------------------
+
+
 # Udagram Image Filtering Microservice
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
