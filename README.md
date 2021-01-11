@@ -6,10 +6,10 @@ http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/
 
 http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://cdn.cnn.com/cnnnext/dam/assets/210108165723-23-us-capitol-riots-0106-medium-tease.jpg
 
-# To get a token for a given password
+## To get a token for a given password
 http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/generateToke?password=hello
 
-# To test Authorization
+### To test Authorization
 This bearer token can be used:  eyJhbGciOiJIUzI1NiJ9.aGVsbG8.Zbm0G9i_cBghcKnyCFMgqfrvhmYUk2j97sbTC5ktgmE
 http://udagram-zar-proj2-dev.us-east-1.elasticbeanstalk.com/verification
 
